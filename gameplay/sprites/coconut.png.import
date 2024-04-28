@@ -2,16 +2,16 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://cu4l50eaetni5"
-path="res://.godot/imported/bread.png-4f06f512ca9986a85bb22824336d7fca.ctex"
+uid="uid://2yusgo514uc4"
+path="res://.godot/imported/coconut.png-bd2ff6cd66e2ca81cbdda993ca15087b.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://gameplay/bread.png"
-dest_files=["res://.godot/imported/bread.png-4f06f512ca9986a85bb22824336d7fca.ctex"]
+source_file="res://gameplay/sprites/coconut.png"
+dest_files=["res://.godot/imported/coconut.png-bd2ff6cd66e2ca81cbdda993ca15087b.ctex"]
 
 [params]
 

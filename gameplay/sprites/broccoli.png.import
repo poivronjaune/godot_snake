@@ -2,16 +2,16 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://c8kmky8jo1boq"
-path="res://.godot/imported/milk.png-48782323e59eb59f2aa9fcf4714035af.ctex"
+uid="uid://bj6lbaeequwju"
+path="res://.godot/imported/broccoli.png-1b7372781695cd718fdcd5162bad7160.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://gameplay/milk.png"
-dest_files=["res://.godot/imported/milk.png-48782323e59eb59f2aa9fcf4714035af.ctex"]
+source_file="res://gameplay/sprites/broccoli.png"
+dest_files=["res://.godot/imported/broccoli.png-1b7372781695cd718fdcd5162bad7160.ctex"]
 
 [params]
 

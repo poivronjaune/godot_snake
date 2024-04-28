@@ -1,0 +1,13 @@
+[gd_scene load_steps=3 format=3 uid="uid://d2xufiwnnppwg"]
+
+[ext_resource type="Texture2D" uid="uid://dcjxqq7xvypkc" path="res://gameplay/sprites/star-food.png" id="1_lniaw"]
+
+[sub_resource type="CircleShape2D" id="CircleShape2D_m1yom"]
+
+[node name="Food" type="Area2D" groups=["Food"]]
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="."]
+shape = SubResource("CircleShape2D_m1yom")
+
+[node name="Sprite2D" type="Sprite2D" parent="."]
+texture = ExtResource("1_lniaw")

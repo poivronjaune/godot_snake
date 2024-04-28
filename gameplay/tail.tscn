@@ -1,0 +1,21 @@
+[gd_scene load_steps=9 format=3 uid="uid://dbpe6tqiwe5x0"]
+
+[ext_resource type="Script" path="res://gameplay/tail.gd" id="1_kain6"]
+[ext_resource type="Texture2D" uid="uid://byxoj88f634e6" path="res://gameplay/sprites/apple.png" id="2_1unq0"]
+[ext_resource type="Texture2D" uid="uid://cu4l50eaetni5" path="res://gameplay/sprites/bread.png" id="2_hbjj6"]
+[ext_resource type="Texture2D" uid="uid://bj6lbaeequwju" path="res://gameplay/sprites/broccoli.png" id="3_x6p0g"]
+[ext_resource type="Texture2D" uid="uid://2yusgo514uc4" path="res://gameplay/sprites/coconut.png" id="4_mf1rl"]
+[ext_resource type="Texture2D" uid="uid://c8kmky8jo1boq" path="res://gameplay/sprites/milk.png" id="5_d3i3m"]
+[ext_resource type="Texture2D" uid="uid://dsvvjbmhwf2y3" path="res://gameplay/sprites/orange.png" id="6_dbrfc"]
+
+[sub_resource type="CircleShape2D" id="CircleShape2D_x8awl"]
+
+[node name="Tail" type="Area2D"]
+script = ExtResource("1_kain6")
+textures = Array[Texture]([ExtResource("2_hbjj6"), ExtResource("3_x6p0g"), ExtResource("4_mf1rl"), ExtResource("5_d3i3m"), ExtResource("6_dbrfc"), ExtResource("2_1unq0")])
+
+[node name="Sprite2D" type="Sprite2D" parent="."]
+texture = ExtResource("2_1unq0")
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="."]
+shape = SubResource("CircleShape2D_x8awl")

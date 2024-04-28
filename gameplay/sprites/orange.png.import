@@ -2,16 +2,16 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://s6hena1vq3q4"
-path="res://.godot/imported/grid.png-0da093fd7a80ecf581bbf72ef28d555e.ctex"
+uid="uid://dsvvjbmhwf2y3"
+path="res://.godot/imported/orange.png-3ecfdc6bf422d1941663452ed1f1514a.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://gameplay/grid.png"
-dest_files=["res://.godot/imported/grid.png-0da093fd7a80ecf581bbf72ef28d555e.ctex"]
+source_file="res://gameplay/sprites/orange.png"
+dest_files=["res://.godot/imported/orange.png-3ecfdc6bf422d1941663452ed1f1514a.ctex"]
 
 [params]
 
